@@ -27,11 +27,12 @@
     <dependency org="org.apache.tika" name="tika-core" rev="${/org.apache.tika/tika-core}" conf="compile"/>
     <dependency org="org.apache.tika" name="tika-parsers" rev="${/org.apache.tika/tika-parsers}" conf="compile"/>
     <dependency org="org.apache.tika" name="tika-xmp" rev="${/org.apache.tika/tika-xmp}" conf="compile"/>
-    <dependency org="org.apache.tika" name="tika-java7" rev="${/org.apache.tika/tika-java7}" conf="compile"/>
+    <!--<dependency org="org.apache.tika" name="tika-java7" rev="${/org.apache.tika/tika-java7}" conf="compile"/>-->
     <!-- Tika dependencies - see http://tika.apache.org/1.3/gettingstarted.html#Using_Tika_as_a_Maven_dependency -->
     <!-- When upgrading Tika, upgrade dependencies versions and add any new ones
          (except slf4j-api, commons-codec, commons-logging, commons-httpclient, geronimo-stax-api_1.0_spec, jcip-annotations, xml-apis, asm)
          WARNING: Don't add netcdf / unidataCommon (partially LGPL code) -->
+    <dependency org="org.apache.cxf" name="cxf-rt-rs-client" rev="${/org.apache.cxf/cxf-rt-rs-client}" conf="compile"/>
     <dependency org="org.gagravarr" name="vorbis-java-tika" rev="${/org.gagravarr/vorbis-java-tika}" conf="compile"/>
     <dependency org="org.gagravarr" name="vorbis-java-core" rev="${/org.gagravarr/vorbis-java-core}" conf="compile"/>
     <dependency org="org.apache.james" name="apache-mime4j-core" rev="${/org.apache.james/apache-mime4j-core}" conf="compile"/>
@@ -39,7 +40,7 @@
     <dependency org="org.apache.commons" name="commons-compress" rev="${/org.apache.commons/commons-compress}" conf="compile"/>
     <dependency org="org.apache.pdfbox" name="pdfbox" rev="${/org.apache.pdfbox/pdfbox}" conf="compile"/>
     <dependency org="org.apache.pdfbox" name="fontbox" rev="${/org.apache.pdfbox/fontbox}" conf="compile"/>
-    <dependency org="org.apache.pdfbox" name="jempbox" rev="${/org.apache.pdfbox/jempbox}" conf="compile"/>
+    <!--<dependency org="org.apache.pdfbox" name="jempbox" rev="${/org.apache.pdfbox/jempbox}" conf="compile"/>-->
     <dependency org="org.bouncycastle" name="bcmail-jdk15" rev="${/org.bouncycastle/bcmail-jdk15}" conf="compile"/>
     <dependency org="org.bouncycastle" name="bcprov-jdk15" rev="${/org.bouncycastle/bcprov-jdk15}" conf="compile"/>
     <dependency org="org.apache.poi" name="poi" rev="${/org.apache.poi/poi}" conf="compile"/>
